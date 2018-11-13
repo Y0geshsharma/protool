@@ -18,7 +18,7 @@ void main()
     struct node* p1head,* p2head,* p3head;
     p1head=p2head=NULL;
 
-    // Inputing the first polynomial..
+    // Inputing first
 
     printf("Enter the no of terms of polynomial 1..");
     scanf("%d",&n);
@@ -29,7 +29,7 @@ void main()
         p1head=insertpoly(p1head,a,b);
     }
 
-    // Inputing the second polynomial..
+    // Inputing  second 
 
     printf("\nEnter the no of terms of polynomial 2..");
     scanf("%d",&n);
